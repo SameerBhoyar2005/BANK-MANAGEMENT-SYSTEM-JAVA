@@ -5,9 +5,9 @@ public class Databasecon {
 		Connection con = null;
 	try {
 		
-		final String url="jdbc:mysql://127.0.0.1:3306/bank";
+		final String url="jdbc:mysql://127.0.0.1:3306/";
 		final String username="root";
-		final String password="Entermichael@123";
+		final String password="your password";
 		con=DriverManager.getConnection(url,username,password);
 	}
 	catch(Exception e) {
@@ -17,3 +17,4 @@ public class Databasecon {
 	return con;
 }
 	}
+
